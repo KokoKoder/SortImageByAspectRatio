@@ -4,10 +4,10 @@ import os.path
 from shutil import copyfile
 import sys
 
-walk_dir = 'C:\\Users\\Admin\\Documents\\sisustusmööbel\\backup-10-2018\\htdocs\\images\\virtuemart\\product'
-paysage_dir='C:\\Users\\Admin\\Pictures\\paysage' #Directory must exists
-portrait_dir='C:\\Users\\Admin\\Pictures\\portrait' #Directory must exists
-square_dir='C:\\Users\\Admin\\Pictures\\square' #Directory must exists
+walk_dir = '.\\Pictures\\product'
+paysage_dir='.\\Pictures\\paysage' #Directory must exists
+portrait_dir='.\\Pictures\\portrait' #Directory must exists
+square_dir='C:.\\Pictures\\square' #Directory must exists
 
 
 for root, subdirs, files in os.walk(walk_dir):
